@@ -1,0 +1,127 @@
+{
+  "headers": {
+    "title": ["My projects."],
+    "shortDesc": "Hi! I'm Aiman Adlawan, a passionate Front-end Developer and UI Designer based in Bensenville, Illinios.",
+    "textColors": {
+      "primary": "#C6C4AF",
+      "secondary": "#AAA88B"
+    },
+    "colormodes": {
+      "open": {
+        "foreground": "#EBE9CD",
+        "background": "#0C5D5A"
+      },
+      "close": {
+        "foreground": "#EBE9CD",
+        "background": "#145250"
+      }
+    },
+    "background": "",
+    "withSocials": false,
+    "withScrollButton": {
+      "isTrue": false
+    },
+    "withImage":{
+      "isTrue": false
+    },
+    "subParagraph": {
+      "isTrue": false
+    },
+    "withCredentials": {
+      "isTrue": false
+    },
+    "specialLinks": {
+      "isTrue": false,
+      "content": "about"
+    },
+    "withShortProjects": true
+  },
+  "withBlocks": {
+   "background": "gray-dotted-background-half",
+   "blockTitle": "projects",
+   "blockDesc": "These are some of the recent projects and designs I have made.",
+   "withArrow": false
+  },
+  "otherProjects": {
+    "github": {
+      "title": "Github projects",
+      "desc": "Interested to see some of my repositories? Here are some of them, or you can see all of them in my",
+      "withLinks": true,
+      "otherProjects": [
+        {
+          "name": "Pandora",
+          "link": "/",
+          "num": 53
+        },
+        {
+          "name": "Barcode-Scanner",
+          "link": "/",
+          "num": 52
+        },
+        {
+          "name": "Face-Detect",
+          "link": "/",
+          "num": 51
+        },
+        {
+          "name": "Word-clock",
+          "link": "/",
+          "num": 50
+        },
+        {
+          "name": "Analogue-Clock",
+          "link": "/",
+          "num": 49
+        },
+        {
+          "name": "World-Clock",
+          "link": "/",
+          "num": 48
+        },
+        {
+          "name": "Currency-converter",
+          "link": "/",
+          "num": 47
+        },
+        {
+          "name": "Twitter-Finder",
+          "link": "/",
+          "num": 46
+        },
+        {
+          "name": "Rock-Paper-Scissors",
+          "link": "/",
+          "num": 45
+        },
+        {
+          "name": "Quotes-Generator",
+          "link": "/",
+          "num": 44
+        }
+      ]
+    },
+    "designs": {
+      "title": "UX/UI Designs",
+      "desc": "You can also view my creative design from any of these creative design platforms",
+      "withLinks": false,
+      "platforms": [
+        {
+          "name": "Behance",
+          "link": "https://www.behance.net/aimanadlawan",
+          "type": "behance"
+        },
+        {
+          "name": "Dribbble",
+          "link": "https://dribbble.com/aimanadlawan",
+          "type": "dribbble"
+        }
+      ]
+    }
+  },
+  "quotes": {
+    "author": "George Bernard Shaw",
+    "quote": "Life isn't about finding yourself. Life is about creating yourself.",
+    "show": true
+  }
+}
+

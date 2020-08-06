@@ -1,0 +1,275 @@
+{
+  "headers": {
+    "title": ["About me."],
+    "shortDesc": "Building things using modern technology such as programming gave me the ability to actualize my ideas and help individuals and organizations.",
+    "textColors":{
+      "primary" : "#41474A",
+      "secondary" : "#6B6F71"
+    },
+    "colormodes": {
+      "open": {
+        "foreground": "#EBE9CD",
+        "background": "#0C5D5A"
+      },
+      "close": {
+        "foreground": "#0C5D5A",
+        "background": "#CDCDCD"
+      }
+    },
+    "background": "gray-dotted-background-whole",
+    "withSocials": true,
+    "withScrollButton": {
+      "isTrue": true,
+      "type": "withText",
+      "colors": {
+        "lightColor": "#35827F",
+        "darkColor": "#2C6664"
+      }
+    },
+    "withImage": {
+      "isTrue": true,
+      "image": "/images/aiman-hero-img.png"
+    },
+    "subParagraph": {
+      "isTrue": true,
+      "content": [
+        {
+          "title": "Background",
+          "text": "I grew up in Cebu, Philippines. I speak Tagalog, Cebuano, and English. In college, I studied Philosophy and went to work in hospitality industry for seven years. When I came to the United States, I was so curious about technology that I decided to study web development online. In there, learned various programming languages and frameworks which empowered me to turn my ideas into a reality.  It has also helped me get familiarized to alot of software applications that are essential to building websites and native applications."
+        },
+        {
+          "title": "Dream",
+          "text": "I see myself as a full-stack developer with a strength in front-end and ux/ui design. I like writing clean codes and great ui/ux design. I build fully responsive web applications from designing to code implementation with high quality codes that is scalable and maintainable. I believe that creating a well planned tools and applications can drive a greater impact to growing an organization. My goal is to be a great web/app developer and help organizations and individuals."
+        },
+        {
+          "title": "Facts about me",
+          "text": "I like asian food. I drink tea and coffee. I trade stocks and I like collecting vintage foreign currencies. I do wood working. I read non-fiction books. I have tried biking 130 kms in one day."
+        }
+      ],
+      "specialLinks" : {
+        "isTrue": true
+      }
+    },
+    "withCredentials": {
+      "isTrue": false
+    }
+  },
+  "withBlocks" : {
+   "background" : "/images/gray-dotted-background-half.png",
+   "blockTitle" : "skills sets",
+   "blockDesc": "Even the simplest tools can empower people to do great things. - Biz Stone.",
+   "backgroundColor" : "#F0F0F0",
+   "withArrow": false,
+   "textcolor": "#0C5D5A"
+  },
+
+  "skills": {
+    "background": "/images/dark-green-dotted-whole.png",
+    "messagetext" : "View projects",
+    "withSvg": false,
+    "link": "/projects",
+    "btnType": "box-button",
+    "color": "#347A78",
+    "type" : "withBox",
+    "creativeDesign": {
+      "title": "Creative Design Tools",
+      "description": "I use various design tools to build prototypes and wireframes easier. These tools also allow me to visualize ideas faster and efficiently. These are the tools I am quite comfortable using with.",
+      "skills": [
+        {
+          "name": "Figma",
+          "img": "figma",
+          "alt": "figma"
+        },
+        {
+          "name": "Webflow",
+          "img": "webflow",
+          "alt": "webflow"
+        },
+        {
+          "name": "Adobe PS",
+          "img": "adobe ps",
+          "alt": "adobe photoshop"
+        },
+        {
+          "name": "Adobe AI",
+          "img": "adobe ai",
+          "alt": "adobe illustrator"
+        },
+        {
+          "name": "Adobe AE",
+          "img": "adobe ae",
+          "alt": "adobe after effects"
+        },
+        {
+          "name": "Adobe XD",
+          "img": "adobe xd",
+          "alt": "adobe xd"
+        }
+      ]
+    },
+
+    "frontend": {
+      "title": "Frontend Tools",
+      "description": "For developing frontend applications I use technologies that allow me build scalable and agile applications. These are the essential tools and frontend frameworks in my tool kit for developing applications and websites. ",
+
+      "skills": [
+        {
+          "name": "Python",
+          "img": "python",
+          "alt": "python"
+        },
+        {
+          "name": "Javascript",
+          "img": "javascript",
+          "alt": "javascript"
+        },
+        {
+          "name": "Php",
+          "img": "php",
+          "alt": "php"
+        },
+        {
+          "name": "NodeJS",
+          "img": "nodejs",
+          "alt": "nodejs"
+        },
+        {
+          "name": "ReactJS",
+          "img": "reactjs",
+          "alt": "reactjs"
+        },
+        {
+          "name": "Django",
+          "img": "django",
+          "alt": "django"
+        },
+        {
+          "name": "VueJS",
+          "img": "vuejs",
+          "alt": "vuejs"
+        },
+        {
+          "name": "GraphQL",
+          "img": "graphql",
+          "alt": "graphql"
+        },
+        {
+          "name": "Gitbash",
+          "img": "gitbash",
+          "alt": "gitbash"
+        },
+        {
+          "name": "HTML5",
+          "img": "html5",
+          "alt": "html5"
+        },
+        {
+          "name": "CSS3",
+          "img": "css3",
+          "alt": "css3"
+        },
+        {
+          "name": "Redux",
+          "img": "redux",
+          "alt": "redux"
+        },
+        {
+          "name": "NPM",
+          "img": "npm",
+          "alt": "npm"
+        },
+        {
+          "name": "jQuery",
+          "img": "jquery",
+          "alt": "jquery"
+        },
+        {
+          "name": "Github",
+          "img": "github",
+          "alt": "github"
+        },
+        {
+          "name": "VSCode",
+          "img": "vscode",
+          "alt": "vs code"
+        },
+        {
+          "name": "Atom",
+          "img": "atom",
+          "alt": "atom"
+        },
+        {
+          "name": "Seo",
+          "img": "seo",
+          "alt": "seo"
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend Tools",
+      "description": "Serving data from the backend is important for building web applications and these are the server-side tools I use to store data and serve it back to the front-end code. ",
+      "skills": [
+        {
+          "name": "Firebase",
+          "img": "firebase",
+          "alt": "firebase"
+        },
+        {
+          "name": "MongoDB",
+          "img": "mongodb",
+          "alt": "mongodb"
+        },
+        {
+          "name": "MySQL",
+          "img": "mysql",
+          "alt": "mysql"
+        },
+        {
+          "name": "Express",
+          "img": "express",
+          "alt": "express"
+        }
+      ]
+    }
+  },
+
+
+  "followMyReads": {
+    "background": "/images/light-dotted-background-whole.png",
+    "title": "Follow my reads.",
+    "topDesc": "Reading is one of the things that I do to satisfy my curiosity. It helps me understand the world around me better than any social media feeds. Here are some of my reads I recommend to those who share the same curiosity with me.",
+    "bottomDesc": "Goodreads is an amazon social media platform for book readers. It allows you to share the books that you have read, share your comments and opinions about some books, and follow your favorite authors and readers. I currently have 132 reads. If we share the same curiousity, you can follow all of them",
+    "goodreadsLink": "https://www.goodreads.com/user/show/84826805-aiman-adlawan",
+    "books": [
+      {
+        "name": "The world as I see it.",
+        "img": "the world as i see it",
+        "alt": "the world as i see it",
+        "link": "www.amazon.com/World-As-I-See/dp/1494877066"
+      },
+      {
+        "name": "Reluctant Genius.",
+        "img": "reluctant genius",
+        "alt": "reluctant genius",
+        "link": "www.amazon.com/Reluctant-Genius-Alexander-Passion-Invention/dp/1611450608"
+      },
+      {
+        "name": "Telsa Man out of time.",
+        "img": "tesla man out of time",
+        "alt": "telsa man out of time",
+        "link": "www.amazon.com/Tesla-Time-Cheney-Margaret/dp/B011MF5QTQ"
+      },
+      {
+        "name": "The boy who invented the television.",
+        "img": "the boy who invented the television",
+        "alt": "the boy who invented the television.",
+        "link": "www.amazon.com/Boy-Who-Invented-Television-Inspiration/dp/0976200007"
+      }
+    ]
+  },
+  "quotes": {
+    "author": "Albert Einstein",
+    "quote": "I have no special talents. I am only passionately curious.",
+    "show": true
+  }
+}

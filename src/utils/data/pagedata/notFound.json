@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "title": ["Your lost mate!"],
+    "shortDesc": "Sorry, this page is not available.",
+    "button": {
+      "text": "Go back to main",
+      "withSvg": false,
+      "type": "withBox",
+      "backgroundColor": "#347A78",
+      "textColor": "#C6C4AF"
+    },
+     "colormodes": {
+      "open": {
+        "foreground": "#EBE9CD",
+        "background": "#0C5D5A"
+      },
+      "close": {
+        "foreground": "#EBE9CD",
+        "background": "#313D43"
+      }
+    },
+    "background": {
+      "giff": "/images/typing.gif",
+      "color": "#2C6664"
+    }
+  },
+  "quotes": {
+    "author": "Stephen Hawking",
+    "quote": "Intelligence is the ability to adapt change.",
+    "show": false
+  }
+}

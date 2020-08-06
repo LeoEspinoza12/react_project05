@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "title": ["Get in touch."],
+    "shortDesc": "Tell me how I can be of help to you, or if you just want to say hi, drop me a message below.",
+    "textColors":{
+      "primary": "#C6C4AF",
+      "secondary": "#AAA88B"
+    },
+    "colormodes": {
+      "open": {
+        "foreground": "#EBE9CD",
+        "background": "#0C5D5A"
+      },
+      "close": {
+        "foreground": "#EBE9CD",
+        "background": "#313D43"
+      }
+    },
+    "background": "dark-dotted-background-whole",
+    "withSocials": true,
+    "withScrollButton": {
+      "isTrue": true,
+      "type": "withText",
+      "colors": {
+        "lightColor": "#EBE9CD", 
+        "darkColor": "#AAA88B"
+      }
+    },
+    "withImage": {
+      "isTrue": false
+    },
+    "subParagraph": {
+      "isTrue": false
+    },
+    "withCredentials": {
+      "isTrue": false
+    },
+    "specialLinks": {
+      "isTrue": false,
+      "content": "about"
+    }
+  },
+  "message": {
+    "title": "Message me.",
+    "shortDesc": "Few details should be good enough.",
+    "background": "/images/light-dotted-background-whole.png"
+  },
+  "quotes": {
+    "author": "Henry Ford",
+    "quote": "Nothing is particularly hard if you divide it into small tasks.",
+    "show": true
+  }
+}

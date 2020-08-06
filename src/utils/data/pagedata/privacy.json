@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "title": ["Privacy Policy"],
+    "shortDesc": "This Privacy Policy describes how your personal information is collected, used and shared when you visit from",
+    "paragraphs": [
+      {
+        "title": "Personal information I collect.",
+        "desc": "When you visit the ‘Site’,  I automatically collect certain information about your device, including information about your web browser, IP address and time zone. Additionally, as you browse the ‘Site’, I collect information about the individual web pages that you view and information about how you interact with the ‘Site’. I refer to this automatically-collected information as “Device Information.”"
+      },
+      {
+        "title": "How do we use your personal information?",
+        "desc": "I use the Device Information that I collect to help screen for potential risk (in particular, your IP address), and more generally to improve and optimize my Site (for example, by generating analytics about how visitors browse and interact with the ‘Site’)."
+      },
+      {
+        "title": "Do not track.",
+        "desc": "I do not alter any data collection and usage when I see a ‘Do Not Track’ signal from your browser. This is to protect the user's privacy and to ensure no privacy is breached."
+      },
+      {
+        "title": "How I share your personal information?",
+        "desc": "I only use your personal information to gather analytics about how users interact with the ‘Site’ and to response to your inquiries from the contacts page. Moreover, I do not share any of your information to other third parties except only when I comply to applicable laws and regulations, search warrant or other lawful request for information I receive."
+      },
+      {
+        "title": "Data retention.",
+        "desc": "When you contact me through the Message Me Form from the contacts page, the information you provide will be kept for future correspondence or any other communication purposes. I will only delete it until I receive a request from you with and by using the same information you initially provide."
+      },
+      {
+        "title": "Policy change.",
+        "desc": "I may update this privacy policy from time to time in order to reflect changes according to standard practices or other operational, legal or regulatory reasons. The date stated below indicates the latest revision of this privacy policy."
+      }
+    ],
+    "date": "February 10, 2020",
+    "textColors": {
+      "primary": "#448683",
+      "secondary": "#7C7C7C"
+    },
+    "colormodes": {
+      "open": {
+        "foreground": "#EBE9CD",
+        "background": "#0C5D5A"
+      },
+      "close": {
+        "foreground": "#448683",
+        "background": "#F4F4F4"
+      }
+    },
+    "background": "",
+    "withSocials": false,
+    "withScrollButton": {
+      "isTrue": false
+    },
+    "withImage": {
+      "isTrue": false
+    },
+    "subParagraph": {
+      "isTrue": false
+    },
+    "withCredentials": {
+      "isTrue": false
+    }
+  },
+  "quotes": {
+    "author": "Vincent van Gogh",
+    "quote": "Great things are done by a series of small things brought together.",
+    "show": false
+  }
+}

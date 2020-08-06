@@ -1,0 +1,513 @@
+{
+  "listofprojects": [
+    {
+      "headers": {
+        "colormodes": {
+          "open": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          },
+          "close": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          }
+        }
+      },
+      "title": "music-app",
+      "shortDesc": "a music player app for ios.",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati. Asperiores voluptate saepe consectetur tenetur quisquam. Harum incidunt sunt, quia aliquam sapiente minus consectetur dignissimos facere error illo natus quisquam!",
+      "projectlinks": {
+        "internal": "/projects/music-app",
+        "appLinks": [{
+            "text": "View source code",
+            "link": "/github.com"
+          },
+          {
+            "text": "Launch app",
+            "link": "aimanski12.web.app"
+          }
+        ]
+      },
+      "textColors" : {
+        "primary" : "#D7D5C2",
+        "secondary" : "#C6C4AF"
+      },
+      "bkgColor": "#2C6F6C",
+      "btnTextColor": "#F0EED4",
+      "theme": "/images/green-header.png",
+      "bodybackground": "/images/light-dotted-background-whole.png",
+      "photo": {
+        "teaser": "/images/project-one-teaser.png",
+        "landing": "/images/project-one-image-header.png",
+        "screens": [{
+            "title": "Une Screen Maine",
+            "desc": "Este tarpa esta para primiera pelicula de la guatsi.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample-file-alt"
+          },
+          {
+            "title": false,
+            "desc": false,
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample-file-alt"
+          },
+          {
+            "title": false,
+            "desc": "c'est norriture est pour mon ami et mon maman. Tous les jours mangeons une pizza de pomme.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample-file-alt"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "name": "Platform",
+          "value": "Mobile"
+        },
+        {
+          "name": "Category",
+          "value": "Entertainment"
+        },
+        {
+          "name": "Developer",
+          "value": "Aiman Adlawan"
+        }
+      ],
+      "tools": ["HTML5", "CSS3", "Figma", "AdobePS", "MusicAPI", "CrossBiking", "Gaussian Math", "Combinatorics", "Calculus"],
+      "quotes": {
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt change.",
+        "show": true
+      }
+    },
+    
+
+
+
+
+
+
+
+
+    {
+      "headers": {
+        "colormodes": {
+          "open": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          },
+          "close": {
+            "foreground": "#0C5D5A",
+            "background": "#CDCDCD"
+          }
+        }
+      },
+      "title": "reservation-app",
+      "shortDesc": "a reactjs app.",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati. Asperiores voluptate saepe consectetur tenetur quisquam. Harum incidunt sunt, quia aliquam sapiente minus consectetur dignissimos facere error illo natus quisquam!",
+      "projectlinks": {
+        "internal": "/projects/reservation-app",
+        "appLinks": [{
+            "text": "View source code",
+            "link": "/github.com"
+          },
+          {
+            "text": "Launch app",
+            "link": "aimanski12.web.app"
+          }
+        ]
+      },
+       "textColors" : {
+        "primary" : "#C6C4AF",
+        "secondary" : "#AAA88B"
+      },
+      "bkgColor": "#DBD9BF",
+      "btnTextColor": "red",
+      "theme": "/images/theme-two.png",
+      "bodybackground": "/images/light-dotted-background-whole.png",
+      "photo": {
+        "teaser": "/images/project-two-teaser.png",
+        "landing": "/images/project-one-image-header.png",
+        "screens": [{
+            "title": "Une Screen Maine",
+            "desc": "Este tarpa esta para primiera pelicula de la guatsi.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": false,
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": "c'est norriture est pour mon ami et mon maman. Tous les jours mangeons une pizza de pomme.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "name": "Platform",
+          "value": "Mobile"
+        },
+        {
+          "name": "Category",
+          "value": "Entertainment"
+        },
+        {
+          "name": "Developer",
+          "value": "Aiman Adlawan"
+        }
+      ],
+      "tools": ["HTML5", "CSS3", "Figma", "AdobePS", "MusicAPI", "CrossBiking", "Gaussian Math", "Combinatorics", "Calculus"],
+      "quotes": {
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt change.",
+        "show": true
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "headers": {
+        "colormodes": {
+          "open": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          },
+          "close": {
+            "foreground": "#0C5D5A",
+            "background": "#EBE9CD"
+          }
+        }
+      },
+      "title": "electric-bill",
+      "shortDesc": "online-app-inquiry",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati. Asperiores voluptate saepe consectetur tenetur quisquam. Harum incidunt sunt, quia aliquam sapiente minus consectetur dignissimos facere error illo natus quisquam!",
+      "projectlinks": {
+        "internal": "/projects/electric-bill",
+        "appLinks": [{
+            "text": "View source code",
+            "link": "/github.com"
+          },
+          {
+            "text": "Launch app",
+            "link": "aimanski12.web.app"
+          }
+        ]
+      },
+       "textColors" : {
+        "primary" : "#C6C4AF",
+        "secondary" : "#AAA88B"
+      },
+      "bkgColor": "#CCD3D3",
+      "btnTextColor": "red",
+      "theme": "/images/theme-three.png",
+      "bodybackground": "/images/light-dotted-background-whole.png",
+      "photo": {
+        "teaser": "/images/project-three-teaser.png",
+        "landing": "/images/project-one-image-header.png",
+        "screens": [{
+            "title": "Une Screen Maine",
+            "desc": "Este tarpa esta para primiera pelicula de la guatsi.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": false,
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": "c'est norriture est pour mon ami et mon maman. Tous les jours mangeons une pizza de pomme.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "name": "Platform",
+          "value": "Mobile"
+        },
+        {
+          "name": "Category",
+          "value": "Entertainment"
+        },
+        {
+          "name": "Developer",
+          "value": "Aiman Adlawan"
+        }
+      ],
+      "tools": ["HTML5", "CSS3", "Figma", "AdobePS", "MusicAPI", "CrossBiking", "Gaussian Math", "Combinatorics", "Calculus"],
+      "quotes": {
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt change.",
+        "show": true
+      }
+    },
+
+
+
+
+
+
+    {
+      "headers": {
+        "colormodes": {
+          "open": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          },
+          "close": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          }
+        }
+      },
+      "title": "music-player3",
+      "shortDesc": "a music player app for ios.",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati. Asperiores voluptate saepe consectetur tenetur quisquam. Harum incidunt sunt, quia aliquam sapiente minus consectetur dignissimos facere error illo natus quisquam!",
+      "projectlinks": {
+        "internal": "/projects/music-player3",
+        "appLinks": [{
+            "text": "View source code",
+            "link": "/github.com"
+          },
+          {
+            "text": "Launch app",
+            "link": "aimanski12.web.app"
+          }
+        ]
+      },
+      "textColors" : {
+        "primary" : "#C6C4AF",
+        "secondary" : "#AAA88B"
+      },
+      "bkgColor": "#2C6F6C",
+      "btnTextColor": "red",
+      "theme": "/images/theme-one.png",
+      "bodybackground": "/images/light-dotted-background-whole.png",
+      "photo": {
+        "teaser": "/images/project-one-teaser.png",
+        "landing": "/images/project-one-image-header.png",
+        "screens": [{
+            "title": "Une Screen Maine",
+            "desc": "Este tarpa esta para primiera pelicula de la guatsi.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": false,
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": "c'est norriture est pour mon ami et mon maman. Tous les jours mangeons une pizza de pomme.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "name": "Platform",
+          "value": "Mobile"
+        },
+        {
+          "name": "Category",
+          "value": "Entertainment"
+        },
+        {
+          "name": "Developer",
+          "value": "Aiman Adlawan"
+        }
+      ],
+      "tools": ["HTML5", "CSS3", "Figma", "AdobePS", "MusicAPI", "CrossBiking", "Gaussian Math", "Combinatorics", "Calculus"],
+      "quotes": {
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt change.",
+        "show": true
+      }
+    },
+
+    {
+      "headers": {
+        "colormodes": {
+          "open": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          },
+          "close": {
+            "foreground": "#0C5D5A",
+            "background": "#CDCDCD"
+          }
+        }
+      },
+      "title": "music-player4",
+      "shortDesc": "a music player app for ios.",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati. Asperiores voluptate saepe consectetur tenetur quisquam. Harum incidunt sunt, quia aliquam sapiente minus consectetur dignissimos facere error illo natus quisquam!",
+      "projectlinks": {
+        "internal": "/projects/music-player4",
+        "appLinks": [{
+            "text": "View source code",
+            "link": "/github.com"
+          },
+          {
+            "text": "Launch app",
+            "link": "aimanski12.web.app"
+          }
+        ]
+      },
+      "textColors" : {
+        "primary" : "#C6C4AF",
+        "secondary" : "#AAA88B"
+      },
+      "bkgColor": "#DBD9BF",
+      "btnTextColor": "red",
+      "theme": "/images/theme-two.png",
+      "bodybackground": "/images/light-dotted-background-whole.png",
+      "photo": {
+        "teaser": "/images/project-two-teaser.png",
+        "landing": "/images/project-one-image-header.png",
+        "screens": [{
+            "title": "Une Screen Maine",
+            "desc": "Este tarpa esta para primiera pelicula de la guatsi.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": false,
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": "c'est norriture est pour mon ami et mon maman. Tous les jours mangeons une pizza de pomme.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "name": "Platform",
+          "value": "Mobile"
+        },
+        {
+          "name": "Category",
+          "value": "Entertainment"
+        },
+        {
+          "name": "Developer",
+          "value": "Aiman Adlawan"
+        }
+      ],
+      "tools": ["HTML5", "CSS3", "Figma", "AdobePS", "MusicAPI", "CrossBiking", "Gaussian Math", "Combinatorics", "Calculus"],
+      "quotes": {
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt change.",
+        "show": true
+      }
+    },
+
+    {
+      "headers": {
+        "colormodes": {
+          "open": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          },
+          "close": {
+            "foreground": "#EBE9CD",
+            "background": "#0C5D5A"
+          }
+        }
+      },
+      "title": "music-player5",
+      "shortDesc": "a music player app for ios.",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, obcaecati. Asperiores voluptate saepe consectetur tenetur quisquam. Harum incidunt sunt, quia aliquam sapiente minus consectetur dignissimos facere error illo natus quisquam!",
+      "projectlinks": {
+        "internal": "/projects/music-player5",
+        "appLinks": [{
+            "text": "View source code",
+            "link": "/github.com"
+          },
+          {
+            "text": "Launch app",
+            "link": "aimanski12.web.app"
+          }
+        ]
+      },
+      "textColors" : {
+        "primary" : "#C6C4AF",
+        "secondary" : "#AAA88B"
+      },
+      "bkgColor": "#CCD3D3",
+      "btnTextColor": "red",
+      "theme": "/images/theme-three.png",
+      "bodybackground": "/images/light-dotted-background-whole.png",
+      "photo": {
+        "teaser": "/images/project-three-teaser.png",
+        "landing": "/images/project-one-image-header.png",
+        "screens": [{
+            "title": "Une Screen Maine",
+            "desc": "Este tarpa esta para primiera pelicula de la guatsi.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": false,
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          },
+          {
+            "title": false,
+            "desc": "c'est norriture est pour mon ami et mon maman. Tous les jours mangeons une pizza de pomme.",
+            "img": "/images/project-one-image-header.png",
+            "alt": "sample image alt"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "name": "Platform",
+          "value": "Mobile"
+        },
+        {
+          "name": "Category",
+          "value": "Entertainment"
+        },
+        {
+          "name": "Developer",
+          "value": "Aiman Adlawan"
+        }
+      ],
+      "tools": ["HTML5", "CSS3", "Figma", "AdobePS", "MusicAPI", "CrossBiking", "Gaussian Math", "Combinatorics", "Calculus"],
+      "quotes": {
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt change.",
+        "show": true
+      }
+    }
+  ]
+}

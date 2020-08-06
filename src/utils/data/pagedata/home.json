@@ -1,0 +1,82 @@
+{
+  "headers" : {
+    "title" : ["web/App developer", "& ui designer."],
+    "shortDesc": "Hi! I'm Aiman Adlawan, a passionate Front-end Developer and UI Designer based in Bensenville, Illinios.",
+    "textColors" : {
+      "primary" : "#C6C4AF",
+      "secondary" : "#AAA88B"
+    },
+    "colormodes": {
+      "open": {
+        "foreground": "#EBE9CD",
+        "background": "#0C5D5A"
+      },
+      "close": {
+        "foreground": "#EBE9CD",
+        "background": "#313D43"
+      }
+    },
+    "background" : "dark-dotted-background-whole",
+    "withSocials" : true,
+    "withScrollButton" : {
+      "isTrue" : true,
+      "type" : "withText",
+      "colors" : {
+        "lightColor" : "#EBE9CD", 
+        "darkColor" : "#AAA88B"
+      }
+    },
+    "withImage" : {
+      "isTrue" : false
+    },
+    "subParagraph" : {
+      "isTrue": false
+    },
+    "withCredentials" : {
+      "isTrue" : false
+    },
+    "specialLinks" : {
+      "isTrue" : false,
+      "content" : "about"
+    }
+  },
+  "withBlocks" : {
+   "background" : "/images/gray-dotted-background-half.png",
+   "blockTitle" : "projects",
+   "backgroundColor" : "#F0F0F0",
+   "blockDesc": "These are some of the recent projects and designs I have made.",
+   "withArrow": false,
+   "textcolor": "#0C5D5A"
+  },
+  "projectBlocks": {
+    "background": "/images/green-dotted-background-half.png",
+    "blockTitle": "view more",
+    "backgroundColor": "#145250",
+    "blockDesc": "These are some of the recent projects and designs I have made.",
+    "withArrow": true,
+    "textcolor": "#D3D2C2",
+    "link": "/projects"
+  },
+  "needHelp" : {
+    "title": ["Need help with building", "your project?"],
+    "shortDesc" : "If you have a project that you want to get started, or you need  help on your website, or just want to say hi, let’s get in touch.",
+    "background": "/images/light-dotted-background-whole.png",
+    "messagetext" : "Message me",
+    "type" : "withBox",
+    "withSvg": true,
+    "btnType": "box-button",
+    "link": "/contacts",
+    "color": "#347A78",
+    "textColors" : {
+      "primary" : "#347A78",
+      "secondary" : "#5D8785"
+    }
+  },
+  "quotes": {
+    "author": "Henry Royce",
+    "quote": "Take the best that exist and make it better.",
+    "show": true
+  }
+}
+
+
