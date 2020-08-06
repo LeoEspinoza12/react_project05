@@ -33,7 +33,6 @@ export function mouseOut(e) {
 }
 
 function animateFonts(el, color, y) {
-  console.log(y)
   anime({
     targets: el,
     duration: 200,

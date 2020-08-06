@@ -7,10 +7,10 @@ import ProjectLink from './ProjectLink'
 function Projects(props) {
 
   useEffect(() =>{
-    resize()
-    window.addEventListener('resize', resize)
+    resizeEls()
+    window.addEventListener('resize', resizeEls)
     return () => {
-      window.removeEventListener('resize', resize)
+      window.removeEventListener('resize', resizeEls)
     }
   })
   
@@ -53,3 +53,7 @@ function Projects(props) {
 }
 
 export default Projects;
+
+const resizeEls = () => {
+  resize()
+}

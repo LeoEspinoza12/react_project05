@@ -4,9 +4,13 @@ import {useRouter} from 'next/router'
 import {StateContext} from '../../../utils/context/stateContext'
 import {checkRoute} from '../../../utils/common/common'
 import {mouseEnter, mouseOut} from '../../../utils/pageanimations/navbarmenu/menuListEvents'
+import {setTransitionState} from '../../../utils/pageanimations/motion/common'
+import { closeMenu } from '../../../utils/pageanimations/navbarmenu/menuClickEvents'
+import {fadeNavbar} from '../../../utils/pageanimations/navbarmenu/navbartransition'
 
 function Menu() {
-  const { state, setActiveRoute } = useContext(StateContext)
+  let menus = ['home', 'about', 'projects', 'contacts']
+  const { state, setState, setActiveRoute } = useContext(StateContext)
   const currentRoute = checkRoute(useRouter().pathname)
 
   // set active route to the current route
@@ -14,7 +18,18 @@ function Menu() {
     setActiveRoute(currentRoute)
   },300)
 
-  let menus = ['home', 'about', 'projects', 'contacts']
+  // click events
+  const click = () => {
+    fadeNavbar()
+    closeMenu()
+    setState({
+      menuIsOpen: !state.menuIsOpen,
+      isTransitioning: setTransitionState(state.isTransitioning),
+      exitMode: 'topExit',
+      animation: 'topAnimation'
+    })
+  }
+
 
   const menuList = () => {
   return menus.map((menu, i )=>{
@@ -23,11 +38,15 @@ function Menu() {
         <div className='menu-list-container'>
           <div className={`content-center list-front
             ${menu === state.activeRoute ? 'active' : ''}`}>
-            <Link href={menu === 'home' ? '/' : `/${menu}`}>
+            <Link 
+              key={menu === 'home' ? '/' : `/${menu}`}
+              href={menu === 'home' ? '/' : `/${menu}`}
+              as={menu === 'home' ? '/' : `/${menu}`}>
               <a>
                 <span className='menu-list-text'
                   onMouseEnter={(e)=>mouseEnter(e, 'hoverIn')}
-                  onMouseOut={(e)=>mouseOut(e)} >{menu}</span>
+                  onMouseOut={(e)=>mouseOut(e)} 
+                  onClick={click}>{menu}</span>
               </a>
             </Link>
           </div>

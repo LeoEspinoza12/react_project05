@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useContext} from 'react'
 import Head from 'next/head'
 import {PageDataContext} from '../../utils/context/pageContext'
 import {resize} from '../../utils/common/common'
@@ -7,18 +7,34 @@ import Navbar from '../../components/Navbar/Navbar'
 import Menu from '../../components/MenuContainer/MenuContainer'
 import Header from '../../containers/IndividualProject/Header'
 import ProjectBody from '../../containers/IndividualProject/ProjectBody'
+import {scrollAnimation, debounce} from '../../utils/pageanimations/scrollanimation/scrollanimation'
 import Footer from '../../components/Footer/Footer'
+import {StateContext} from '../../utils/context/stateContext'
+import {variants} from '../../utils/pageanimations/motion/mainvariant'
+import {motion} from 'framer-motion'
 
 function Projects () {
+  const {state} = useContext(StateContext)
 
   useEffect(() => {
     // resize event to when the browser is resized
     resize()
+    // scroll()
+    window.addEventListener('scroll', debounce(scrollAnimation, 50))
+    // return () => {
+    //   window.removeEventListener('scroll', scroll)
+    // }
+
   })
 
 
    return (
-    <div className="container">
+     <motion.div 
+      variants={variants}
+      initial='initial'
+      animate='enter'
+      exit={state.exitMode}
+      className="container">
       <Head>
         <title>Aiman Adlawan | Music-App</title>
         <link rel="icon" href="/images/brand-icon-logo.ico" />
@@ -38,7 +54,7 @@ function Projects () {
           </PageDataContext>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
@@ -65,3 +81,8 @@ function Projects () {
 // }
 
 export default Projects
+
+
+// const scroll = () => {
+//   scrollAnimation('page')
+// }

@@ -1,37 +1,57 @@
 import anime from 'animejs'
 
-export function scrollAnimation(page) {
-  console.log(page)
-  slideInElementsOnScroll()
+export function scrollAnimation() {
+  // console.log(page)
+  if(window.innerWidth > 768) {
+    // slideInElementsOnScroll(wait)
+    slideInAnimation()
+  }
 }
 
 
+export function debounce (func, wait) {
+  let timeout;
 
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+};
 
 
 // function that will debounce the scroll event to every
 // 70ms so to avoid performance issue
-function debounce (func, wait = 180, immediate = true){
-  let timeout;
-  return function() {
-    let context = this, args = arguments;
-    let later = function () {
-      timeout = null;
-      if(!immediate) func.apply(context, args)
-    }
-    let callNow = immediate && timeout
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait)
-    if(callNow) func.apply(context, args)
-  }
-}
+// export function debounce (func, wait = 100, immediate = true){
+//   let timeout;
+//   return function() {
+//     let context = this, args = arguments;
+//     let later = function () {
+//       timeout = null;
+//       if(!immediate) {
+//         func.apply(context, args)
+//       }
+//     }
+//     let callNow = immediate && timeout
+//     clearTimeout(timeout);
+//     timeout = setTimeout(later, wait)
+//     if(callNow) {
+//       func.apply(context, args)
+//     }
+//   }
+// }
 
 // function for slide animation
 function slideInAnimation(){
   let els = document.querySelectorAll('.show')
 
   els.forEach(el => {
-    const slideInAt = (window.scrollY + window.innerHeight) - (el.clientHeight/2)
+    // const slideInAt = (window.scrollY + window.innerHeight) - (el.clientHeight/2)
+    const slideInAt = (window.scrollY + window.innerHeight) - (60)
     const clientHeight = el.getBoundingClientRect().top + window.scrollY
 
     const isPassed = slideInAt > clientHeight
@@ -71,7 +91,7 @@ function setTimer(func, child, el) {
   setTimeout(()=>{
     func(child)
     el.classList.add('done')
-  }, 700)
+  }, 600)
 }
 
 
@@ -122,13 +142,17 @@ function showSlider (el) {
 // function that will make the image opacity from 
 // 0 to 1 to make the image visible
 function showOpacity(el) {
-  el.style.opacity = 0
+  // el.style.opacity = 0
 
   anime({
     targets: el,
-    opacity: 1,
-    easing: 'easeInSine',
-    duration: 500
+    opacity: {
+      duration: 500,
+      value: 1,
+      delay: 200,
+      easing: 'easeInSine'
+    }
+    
   })
 }
 
@@ -154,19 +178,11 @@ function slideUp (el) {
   })
 }
 
-export function loadSlideElements() {
-  console.log('asdf')
-  // we are setting a 200 ms interval to load all 
-  // the elements before we are getting all the data
-  setTimeout(() => {
-    slideInAnimation()
-  }, 200)
-}
 
 // call the animation function when we are scrolling the page
-export function slideInElementsOnScroll() {
-  debounce(slideInAnimation())
-}
+// export function slideInElementsOnScroll(wait) {
+//   debounce(slideInAnimation(), wait)
+// }
 
 
 

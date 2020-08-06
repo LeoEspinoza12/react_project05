@@ -196,6 +196,9 @@ form {
     width: 500px;
     height: 770px;
   }
+  .message-wrapper {
+    opacity: 1;
+  }
   .form-container {
     width: 90%;
   }

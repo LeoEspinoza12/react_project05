@@ -1,10 +1,11 @@
-import React, {useContext} from 'react'
+import React, {useContext, useState} from 'react'
 import Close from '../../Svgs/Close/Close'
 import {mouseEnter, mouseOut} from '../../../utils/pageanimations/navbarmenu/menuHoverEvents'
 import {openMenu, closeMenu} from '../../../utils/pageanimations/navbarmenu/menuClickEvents'
 import {fadeNavbar} from '../../../utils/pageanimations/navbarmenu/navbartransition'
 import {PageData} from '../../../utils/context/pageContext'
 import {StateContext} from '../../../utils/context/stateContext'
+import {motion} from 'framer-motion'
 
 function NavbarMenu () {
   const {headers} = useContext(PageData)
@@ -50,12 +51,13 @@ function NavbarMenu () {
   return (
     <div className="navbar-menu">
       <div className="front content-center">
-        <span className="content-center front-text"
+        <motion.span className="content-center front-text"
           style={{'color': headers.colormodes.close.foreground}}
           onMouseOver={hoverIn}
           onMouseLeave={hoverOut}
+          whileTap={{scale: 0.95}}
           onClick={click}>
-            {state.menuIsOpen ? <Close /> : 'Menu'}</span>  
+            {state.menuIsOpen ? <Close /> : 'Menu'}</motion.span>  
       </div>
       <div className="middle content-center">
         <span className="middle-span"></span>

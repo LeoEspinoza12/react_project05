@@ -83,7 +83,7 @@ export function resizeEl() {
     for (let x = 0; x < 3; x++){
       let el = hoverProjectEl(p[x])
       el.img_backer.style.opacity = 0
-      el.img.style.scale = 1
+      el.img.style.opacity = 1
       el.button.style.opacity = 1
       el.button.style.background = 'none'
     }
@@ -91,9 +91,8 @@ export function resizeEl() {
     const p = document.querySelectorAll('.projects-wrapper')
     for (let x = 0; x < 3; x++) {
       let el = hoverProjectEl(p[x])
-      el.img_backer.style.opacity = 0.7
-      el.img.style.scale = 1
-      el.button.style.opacity = 0
+      // el.img_backer.style.opacity = 0.8
+      // el.button.style.opacity = 0
     }
   }
 }

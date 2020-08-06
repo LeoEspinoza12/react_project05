@@ -104,34 +104,34 @@ function runTopAnimation (el) {
 // function to open and run the top layer animation
 export function openTopLayer () {
   const el = topLayoverElements()
-
   el.top.style.display = 'block'
   el.container.style.overflow = 'hidden'
   el.runner.style.height = '100vh'
   el.runner.style.width = '0'
   el.svg.style.width = '70%'
 
-  let tl = anime.timeline({easing: 'easeInSine'})
+  let tl = anime.timeline()
   tl
   .add({
     targets: el.runner,
     duration: 500,
     width: '100%',
-    complete: function (anim) {
-      anime({
-        targets: el.svg,
-        opacity: 1,
-        duration: 500,
-      })
-    } 
+    easing: 'linear'
+    // complete: function (anim) {
+    //   anime({
+    //     targets: el.svg,
+    //     opacity: 1,
+    //     duration: 500,
+    //   })
+    // } 
   })
-  .add({
-    duration: 500,
-    begin: function (anim) {
-      el.runner.style.right = 0
-      el.runner.style.float = 'right'
-    }
-  })
+  // .add({
+  //   duration: 500,
+  //   begin: function (anim) {
+  //     el.runner.style.right = 0
+  //     el.runner.style.float = 'right'
+  //   }
+  // })
 }
 
 

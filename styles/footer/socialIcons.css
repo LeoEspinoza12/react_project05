@@ -127,6 +127,10 @@
   .left-icons {
     opacity: 0;
   }
+  .header-social-icons {
+    opacity: 1;
+    transform: translateY(0px);
+  }
   .header-social-icons a{
     display: none;
   }

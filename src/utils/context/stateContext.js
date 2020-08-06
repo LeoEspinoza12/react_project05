@@ -10,7 +10,10 @@ export class StateProvider extends Component {
   state= {
     activeRoute: 'home',
     menuIsOpen: false,
-    menuIsAnimating: false
+    menuIsAnimating: false,
+    isTransitioning: 'initial',
+    exitMode: false,
+    animation: 'initial'
   }
 
   // function that will set update the state

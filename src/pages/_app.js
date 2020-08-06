@@ -1,7 +1,6 @@
 import App from'next/app'
+import {AnimatePresence} from 'framer-motion'
 import {StateProvider} from '../utils/context/stateContext'
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
 
 // global css
 import '../../styles/global/styleOne.css'
@@ -69,11 +68,13 @@ import '../../styles/individualproject/launchlinks.css'
 import '../../styles/individualproject/screens.css'
 import '../../styles/individualproject/tools.css'
 
-function MyApp ({Component, pageProps}){
+function MyApp ({Component, pageProps, router}){
 
   return(
     <StateProvider>
-      <Component {...pageProps} />
+      <AnimatePresence exitBeforeEnter>
+        <Component {...pageProps} key={router.route}/>
+      </AnimatePresence>
     </StateProvider>
   )
 }

@@ -17,7 +17,7 @@ function NeedHelp () {
           <Titleblock data={needHelp}/>
 
           <p className="sub-reveal-container desc show" >
-              <span className="sub-reveal">
+              <span className="sub-reveal btn">
                 <Button 
                   text={needHelp.messagetext} 
                   type={needHelp.type}

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useContext} from 'react'
 import Head from 'next/head'
 import {PageDataContext} from '../../utils/context/pageContext'
 import {resize} from '../../utils/common/common'
@@ -8,8 +8,12 @@ import Menu from '../../components/MenuContainer/MenuContainer'
 import Header from '../../containers/IndividualProject/Header'
 import ProjectBody from '../../containers/IndividualProject/ProjectBody'
 import Footer from '../../components/Footer/Footer'
+import {StateContext} from '../../utils/context/stateContext'
+import {variants} from '../../utils/pageanimations/motion/mainvariant'
+import {motion} from 'framer-motion'
 
 function Projects () {
+  const {state} = useContext(StateContext)
 
   useEffect(() => {
     // resize event to when the browser is resized
@@ -17,7 +21,12 @@ function Projects () {
   })
 
    return (
-    <div className="container">
+    <motion.div 
+      variants={variants}
+      initial='initial'
+      animate='enter'
+      exit={state.exitMode}
+      className="container">
       <Head>
         <title>Aiman Adlawan | Music-Player3</title>
         <link rel="icon" href="/images/brand-icon-logo.ico" />
@@ -37,7 +46,7 @@ function Projects () {
           </PageDataContext>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
