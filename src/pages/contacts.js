@@ -23,7 +23,7 @@ function Contacts () {
     resize()
     // scroll event
     scrollAnimation()
-    window.addEventListener('scroll', debounce(scrollAnimation, 50))
+    window.addEventListener('scroll', debounce(scrollAnimation, 40))
     // window.addEventListener('scroll', scroll)
     // return () => {
     //   window.removeEventListener('scroll', scroll)

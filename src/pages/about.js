@@ -13,9 +13,9 @@ import {scrollAnimation, debounce} from '../utils/pageanimations/scrollanimation
 import {PageDataContext} from '../utils/context/pageContext'
 import {StateContext} from '../utils/context/stateContext'
 import {variants} from '../utils/pageanimations/motion/mainvariant'
-
-
 import {motion} from 'framer-motion'
+
+
 
 function About () {
   const {state} = useContext(StateContext)
@@ -27,7 +27,7 @@ function About () {
     setTimeout(()=>{
       scrollAnimation()
     }, 300)
-    window.addEventListener('scroll', debounce(scrollAnimation, 50))
+    window.addEventListener('scroll', debounce(scrollAnimation, 40))
     // return () => {
     //   window.removeEventListener('scroll', scroll)
     // }

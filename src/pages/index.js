@@ -25,13 +25,13 @@ function Home () {
     setTimeout(()=>{
       scrollAnimation()
     }, 300)
-    window.addEventListener('scroll', debounce(scrollAnimation, 50))
+    window.addEventListener('scroll', debounce(scrollAnimation, 40))
     // return () => {
     //   window.removeEventListener('scroll', scroll)
     // }
   })
 
-  
+  console.log(state.exitMode)
 
   return (
     <motion.div 

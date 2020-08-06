@@ -10,7 +10,7 @@ import {fadeNavbar} from '../../../utils/pageanimations/navbarmenu/navbartransit
 
 function Menu() {
   let menus = ['home', 'about', 'projects', 'contacts']
-  const { state, setState, setActiveRoute } = useContext(StateContext)
+  const { state, setActiveRoute, setTransitionState } = useContext(StateContext)
   const currentRoute = checkRoute(useRouter().pathname)
 
   // set active route to the current route
@@ -22,12 +22,7 @@ function Menu() {
   const click = () => {
     fadeNavbar()
     closeMenu()
-    setState({
-      menuIsOpen: !state.menuIsOpen,
-      isTransitioning: setTransitionState(state.isTransitioning),
-      exitMode: 'topExit',
-      animation: 'topAnimation'
-    })
+    setTransitionState('top')
   }
 
 

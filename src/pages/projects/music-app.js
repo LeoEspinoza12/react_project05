@@ -19,12 +19,11 @@ function Projects () {
   useEffect(() => {
     // resize event to when the browser is resized
     resize()
-    // scroll()
-    window.addEventListener('scroll', debounce(scrollAnimation, 50))
-    // return () => {
-    //   window.removeEventListener('scroll', scroll)
-    // }
 
+    setTimeout(() => {
+      scrollAnimation()
+    }, 300)
+    window.addEventListener('scroll', debounce(scrollAnimation, 40))
   })
 
 

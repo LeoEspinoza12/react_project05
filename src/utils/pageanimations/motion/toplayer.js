@@ -17,12 +17,14 @@ export const logoAnim = {
   topAnimation: {
     opacity: 0,
     transition: {
+      delay: 0.35,
       duration: .15,
     }
   },
   bottomAnimation: {
     opacity: 0,
     transition: {
+      delay: 0.35,
       duration: .25,
     }
   },
@@ -66,7 +68,7 @@ export const topAnim = {
     float: 'right',
     // right: 0,
     transition: {
-      // delay: 1.5,
+      delay: 0.4,
       duration: .6,
       ease: easing
     }
@@ -76,7 +78,7 @@ export const topAnim = {
     float: 'right',
     // right: 0,
     transition: {
-      // delay: 1.5,
+      delay: .4,
       duration: .6,
       ease: easing
     }
@@ -85,7 +87,7 @@ export const topAnim = {
     width: '100%',
     left: 0,
     transition: {
-      delay: 0.7,
+      delay: 0.5,
       duration: .4,
       ease: easing
     }

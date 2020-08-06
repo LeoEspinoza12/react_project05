@@ -1,4 +1,5 @@
 import React, {Component, createContext} from 'react'
+import {setTransitionState} from '../pageanimations/motion/common'
 
 // global state context route
 export const StateContext = createContext()
@@ -24,6 +25,26 @@ export class StateProvider extends Component {
     })
   }
 
+  // this function will update the state based from 
+  // where the button is clicked
+  setTransitionState = (from) => {
+    if(from === 'top'){
+      this.setState({
+        menuIsOpen: !this.state.menuIsOpen,
+        exitMode: mode(from),
+        isTransitioning: setTransitionState(this.state.isTransitioning),
+        animation: animmode(from)
+      })
+    }
+    if(from === 'bottom') {
+      this.setState({
+        exitMode: mode(from),
+        isTransitioning: setTransitionState(this.state.isTransitioning),
+        animation: animmode(from)
+      })
+    }
+  }
+
   // function to get the current route
   setActiveRoute = (route) => {
     // if the current route does not match to the old route
@@ -39,10 +60,19 @@ export class StateProvider extends Component {
       <StateContext.Provider value={{
         state: this.state,
         setState: this.setApplicationState,
-        setActiveRoute: this.setActiveRoute
+        setActiveRoute: this.setActiveRoute,
+        setTransitionState: this.setTransitionState
       }}>
         {this.props.children}
       </StateContext.Provider>
     )
   }
+}
+
+const mode = (from) => {
+  return from === 'top' ? 'topExit' : 'bottomExit'
+}
+
+const animmode = (from) => {
+  return from === 'bottom' ? 'topAnimation' : 'bottomAnimation'
 }

@@ -13,7 +13,7 @@ export const variants = {
   topExit: {
     // opacity: 0,
     transition: {
-      delay: 1.6,
+      delay: 1.65,
       // duration: 0
     },
   },

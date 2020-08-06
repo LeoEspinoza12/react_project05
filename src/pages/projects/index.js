@@ -24,8 +24,10 @@ function Projects () {
     // resize event to when the browser is resized
     resize()
     // scroll event
-    scrollAnimation()
-    window.addEventListener('scroll', debounce(scrollAnimation, 50))
+    setTimeout(()=>{
+      scrollAnimation()
+    }, 300)
+    window.addEventListener('scroll', debounce(scrollAnimation, 40))
     // return () => {
     //   window.removeEventListener('scroll', scroll)
     // }
