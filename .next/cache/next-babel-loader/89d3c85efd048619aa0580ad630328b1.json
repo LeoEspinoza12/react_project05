@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nfunction Date(props) {\n  return __jsx(\"h4\", {\n    className: \"p-wrapper head4\"\n  }, \"Date: \", props.date);\n}\n\nexport default Date;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nfunction TopDesc(props) {\n  return __jsx(\"span\", {\n    className: \"sub-reveal\",\n    style: {\n      color: '#6B6F71',\n      fontWeight: 500\n    }\n  }, props.desc);\n}\n\nexport default TopDesc;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nfunction Title(props) {\n  return __jsx(\"div\", {\n    className: \"reveal \",\n    style: {\n      color: '#41474A'\n    }\n  }, props.title);\n}\n\nexport default Title;","map":null,"metadata":{},"sourceType":"module"}
