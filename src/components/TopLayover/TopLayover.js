@@ -9,8 +9,7 @@ import {topAnim, logoAnim} from '../../utils/pageanimations/motion/toplayer'
 
 const TopLayover = () =>{
   const {state} = useContext(StateContext)
-
-  
+  // checkforsession()
 
   return (
     <motion.div 

@@ -13,7 +13,7 @@ import {scrollAnimation, debounce} from '../utils/pageanimations/scrollanimation
 import {PageDataContext} from '../utils/context/pageContext'
 import {StateContext} from '../utils/context/stateContext'
 import {variants} from '../utils/pageanimations/motion/mainvariant'
-import {motion} from 'framer-motion'
+import {AnimatePresece, motion} from 'framer-motion'
 
 function Home () {
   const {state} = useContext(StateContext)
@@ -31,7 +31,6 @@ function Home () {
     // }
   })
 
-  console.log(state.exitMode)
 
   return (
     <motion.div 

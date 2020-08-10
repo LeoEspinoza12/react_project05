@@ -8,13 +8,13 @@ export const StateContext = createContext()
 export class StateProvider extends Component {
   
   // initial
-  state= {
+  state = {
     activeRoute: 'home',
     menuIsOpen: false,
     menuIsAnimating: false,
     isTransitioning: 'initial',
     exitMode: false,
-    animation: 'initial'
+    animation: 'initial',
   }
 
   // function that will set update the state
@@ -69,10 +69,14 @@ export class StateProvider extends Component {
   }
 }
 
+// this function checks if the menu button is click
+// and will return a string that will animate from the top
 const mode = (from) => {
   return from === 'top' ? 'topExit' : 'bottomExit'
 }
 
+// this function checks if any of the button links 
+// in the bottom is click that will run the transition
 const animmode = (from) => {
   return from === 'bottom' ? 'topAnimation' : 'bottomAnimation'
 }

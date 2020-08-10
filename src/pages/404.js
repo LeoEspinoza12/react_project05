@@ -1,5 +1,6 @@
 import React, {useEffect, useContext} from 'react'
 import Head from 'next/head'
+import TopLayover from '../components/TopLayover/TopLayover'
 import Navbar from '../components/Navbar/Navbar'
 import Menu from '../components/MenuContainer/MenuContainer'
 import NotFound from '../containers/NotFound/NotFound'
@@ -32,6 +33,7 @@ function NotFoundPage () {
       </Head>
 
       <div className="container">
+        <TopLayover />
         <div className="main-container">
           <PageDataContext pagesets={'notfound'}>
             <Navbar />       

@@ -10,6 +10,7 @@ import {resize} from '../utils/common/common'
 import {scrollAnimation, debounce} from '../utils/pageanimations/scrollanimation/scrollanimation'
 import {PageDataContext} from '../utils/context/pageContext'
 import {StateContext} from '../utils/context/stateContext'
+import {InputDataContext} from '../utils/context/inputContext'
 import {variants} from '../utils/pageanimations/motion/mainvariant'
 import {motion} from 'framer-motion'
 
@@ -50,7 +51,9 @@ function Contacts () {
             <Menu />
             <main className='main'>
               <Header/>
-              <Message />
+              <InputDataContext>
+                <Message />
+              </InputDataContext>
               <Footer />
             </main>
           </PageDataContext>
